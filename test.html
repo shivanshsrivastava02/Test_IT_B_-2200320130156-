@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz </title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+   
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .form-container h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .form-group input:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+
+    .error {
+      color: #ff0000;
+      font-size: 12px;
+      margin-top: 5px;
+      display: none;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #0004ffa8;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+
+    .submit-btn:hover {
+      background-color: #116b05;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>what is the capital of france</h2>
+   
+      <div class="form-group">
+        <label for="">choose among the folloowing-</label>
+        <input type="checkbox" id="checkbox" name="DELHI" required>
+        <input type="checkbox" id="checkbox" name="checkbox" required>
+        <input type="checkbox" id="checkbox" name="checkbox" required>
+        <input type="checkbox" id="checkbox" name="checkbox" required>
+        <div id="passwordError" class="error">Password must be at least 6 characters</div>
+      </div>
+      <button type="submit" class="submit-btn">PREVIOUS</button>
+      <button type="submit" class="submit-btn">SUBMIT</button>
+      <button type="submit" class="submit-btn">NEXT</button>
+      
+      
+  <div class="form-container">
+    <h2>which planet is known as the red planet</h2>
+   
+      <div class="form-group">
+        <label for="">choose among the folloowing-</label>
+        <input type="checkbox" id="checkbox" name="delhi" required>
+        <input type="checkbox" id="checkbox" name="mars" required>
+        <input type="checkbox" id="checkbox" name="earth" required>
+        <input type="checkbox" id="checkbox" name="moon" required>
+        <div id="passwordError" class="error">Password must be at least 6 characters</div>
+      </div>
+      <button type="submit" class="submit-btn">PREVIOUS</button>
+      <button type="submit" class="submit-btn">SUBMIT</button>
+      <button type="submit" class="submit-btn">NEXT</button>
+      
+
+    </form>
+  </div>
+
+
+
+</body>
+</html>
